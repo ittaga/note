@@ -14,7 +14,9 @@ layout: default
   <div id="notes-entry-container">
     <content>
       {{ content }}
-      <p>This line appears after every note.</p>
+      {% if page.source %}
+      <p> {{ page.source }} 를 보고 정리했습니다.</p>
+      {% endif %}
     </content>
 
     <side style="font-size: 0.9em">
@@ -41,7 +43,5 @@ layout: default
 </article>
 
 <hr>
-
-<p>Here are all the notes in this garden, along with their links, visualized as a graph.</p>
 
 {% include notes_graph.html %}
