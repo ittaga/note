@@ -1,0 +1,1 @@
+cp -R /Users/jb/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/Note/Article/ /Users/jb/Workspace/note/_notes/
